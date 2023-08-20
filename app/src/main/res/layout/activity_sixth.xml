@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/im"
+    android:layout_height="match_parent"
+    tools:context=".Sixth">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="54dp"
+        android:hint="Main Page"
+        android:textColor="#050101"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="160dp"
+        android:text="Calculator"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="253dp"
+        android:text="Media player"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginBottom="327dp"
+        android:text="Vibrator"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="216dp"
+        android:text="Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="17dp"
+        android:text="Next page"
+        android:textColorHighlight="#120101"
+        android:textColorHint="#1E0303"
+        android:textColorLink="#131111" />
+</RelativeLayout>

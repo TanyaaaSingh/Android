@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/calci"
+    android:layout_height="match_parent"
+    tools:context=".Seventh">
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="Enter the first number"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:hint="Enter the seciond number"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="177dp"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="59dp"
+        android:text="Sub" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="209dp"
+        android:text="Multiple" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="215dp"
+        android:text="Div" />
+
+    <Button
+        android:id="@+id/button20"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="26dp"
+        android:text="Back"
+        android:textColor="#120101"
+        android:textColorHint="#050000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button21"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="21dp"
+        android:text="Clear"
+        android:textColor="#220101"
+        android:textStyle="bold" />
+</RelativeLayout>

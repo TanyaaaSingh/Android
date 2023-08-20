@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/h"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="343dp"
+        android:text="login em@il/passwd" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginBottom="292dp"
+        android:text="login with phone" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginBottom="15dp"
+        android:text="Back"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="-119dp"
+        android:hint="Online mode"
+        android:textColorHint="#F8F0F0"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+</RelativeLayout>
